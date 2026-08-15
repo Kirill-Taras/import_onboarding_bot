@@ -14,7 +14,7 @@ class Settings:
     """Конфигурация приложения."""
 
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
-    DATADASE_URL: str = os.getenv(
+    DATABASE_URL: str = os.getenv(
         "DATABASE_URL",
         "sqlite+aiosqlite:///database/bot.db",
     )
